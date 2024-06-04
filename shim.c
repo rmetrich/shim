@@ -780,7 +780,7 @@ verify_buffer (char *data, int datasize,
 	return verify_buffer_sbat(data, datasize, context);
 }
 
-static int
+int
 is_removable_media_path(EFI_LOADED_IMAGE *li)
 {
 	unsigned int pathlen = 0;
